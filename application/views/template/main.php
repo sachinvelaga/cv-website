@@ -28,7 +28,6 @@
   <meta name="viewport" content="width=device-width">
   <?php /* codeigniter-boilerplate: Styles **********************************/ ?>
   <link rel="stylesheet" href="<?php echo base_url()?>css/normalize.css">
-  <link rel="stylesheet" href="<?php echo base_url()?>css/style.css">
   <?php foreach($css as $c):?>
   <link rel="stylesheet" href="<?php echo base_url()?>css/<?php echo $c?>">
   <?php endforeach;?>
@@ -39,6 +38,9 @@
   <?php foreach($GFont as $f):?>
   <link  href="http://fonts.googleapis.com/css?family=<?php echo $f?>" rel="stylesheet" type="text/css" >
   <?php endforeach;?>
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/slidercss/demo.css')?>"/>
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/slidercss/style2.css')?>"/>
+  <!--<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>!-->
 </head>
 <body>
     <!--[if lt IE 7]>
@@ -47,10 +49,6 @@
 
 <div id="container">
     <header>
-    <?php
-    /* codeigniter-boilerplate: main navigation *******************************/
-    echo $nav
-    ?>
     </header>
     <div id="main" role="main">
     <?php
@@ -72,7 +70,6 @@
   <script src="<?php echo base_url()?>js/plugins.js"></script>
   <script src="<?php echo base_url()?>js/main.js"></script>
   <!-- end scripts-->
-
   <?php /* codeigniter-boilerplate: Scripts *********************************/?>
   <?php foreach($javascript as $js):?>
   <script src="<?php echo base_url()?>js/<?php echo $js?>"></script>
@@ -85,5 +82,19 @@
           g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
           s.parentNode.insertBefore(g,s)}(document,'script'));
       </script>
+   
+   <!-- script for slider !-->
+    <script type="text/javascript" src="<?php echo base_url('js/sliderjs/jquery.cslider.js')?>"></script>
+    <script type="text/javascript">
+      $(function() {
+      
+        $('#da-slider').cslider({
+          autoplay  : true,
+          bgincrement : 450
+        });
+      
+      });
+    </script> 
+
     </body>
 </html>

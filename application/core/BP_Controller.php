@@ -15,14 +15,14 @@ class BP_Controller extends CI_Controller{
     protected $page_id = false;
     protected $view = false;
     protected $template = "main";
-    protected $hasNav = true;
+    protected $hasNav = false;
     //Page contents
     public $javascript = array();
     public $css = array();
     public $GFont = array();
     public $content = false;
     //Page Meta
-    public $title = false;
+    public $title = 'CoVended';
     public $description = false;
 
 
