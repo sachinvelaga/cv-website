@@ -1,7 +1,6 @@
 .wrapper-1
 {
  background-image: url('../../images/covended/bg-hand.png');
- background-size:contain;
  background-repeat:no-repeat;
  height:844px;
  position:relative;
@@ -21,6 +20,7 @@
 	position: fixed;
     left: 60px;
     top: 190px;
+    z-index:1;
 }
 .wrapper-1-nav ul {
     margin: 0; 
@@ -58,4 +58,106 @@
     color: white;
     border-bottom: 1px solid white;
     transition: width 3s ease-in-out;
+}
+.wrapper-2{
+    height: 690px;
+    position: relative;
+}
+.text-info{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 30px;
+ }
+ .image-info-wrapper{
+    position: absolute;
+    top: 300px;
+    height: 275px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+}
+.image-info-wrapper div{
+    position: relative;
+    right: 0;
+    left: 0;
+    width: auto;
+    text-align: center;
+    height: auto;
+}
+.image-info-wrapper div h2{
+    font-size: 50px;
+    font-weight: normal;
+    color: #ff4c00;
+}
+.text-info p{
+    font-family: Gotham Light;
+    font-size: 16px;
+    color: #797979;
+}
+.active{
+    display:block;
+}
+.wrapper-3
+{
+ background-image: url('../../images/covended/bg-ppl.png');
+ background-repeat:no-repeat;
+ height:714px;
+ position:relative;
+}
+.wrapper-3-title{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper-3-title h2{
+    color: #ff4c00;
+    font-size: 50px;
+    font-weight: normal;
+}
+.wrapper-3-1{
+ top: 150px;
+position: absolute;
+width: 1000px;
+margin: 0 auto;
+left: 0;
+right: 0;
+}
+.wrapper-3-1-left-text{
+  width: 40%;
+  float: left;
+  text-align: right;
+}
+.wrapper-3-1-img{
+    width: 10%;
+float: left;
+margin: 0px 40px 0px 40px;
+padding-top: 55px;
+}
+.wrapper-3-1-right-text{
+    width: 40%;
+float: left;
+text-align: left;
+}
+.wrapper-3-2{
+ top: 420px;
+position: absolute;
+width: 1000px;
+margin: 0 auto;
+left: 0;
+right: 0;
+}
+.wrapper-3-1 h3, .wrapper-3-2 h3{
+  font-size: 23px;
+  color:#f25204;
+  font-weight: normal;
+}
+  .wrapper-3-1 p, .wrapper-3-2 p{
+  font-size :14px;
+  color:#ffffff;
 }

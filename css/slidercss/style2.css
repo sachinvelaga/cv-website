@@ -21,7 +21,7 @@
 	top: 0px;
 	left: 0px;
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	text-align: left;
+	text-align: center;
 }
 .da-slide-current{
 	z-index: 1000;
@@ -34,7 +34,8 @@
 }
 .da-slide h2 {
  opacity :0;
- left:110%;
+/* left:110%; */
+ position: absolute;
 }
 .da-slide p,
 .da-slide .da-link,
@@ -62,7 +63,9 @@
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	font-family: 'Economica', Arial, sans-serif;
 	font-weight: 700;
-	text-align:center;
+	left:0;
+	right: 0;
+	margin :0 auto;
 }
 .da-slide p{
 	width: 45%;

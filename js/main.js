@@ -15,17 +15,13 @@ $('#da-slider').cslider({
     // time between transitions
      
 });
-    $('div[data-type="background"]').each(function(){
-        var $bgobj = $(this); // assigning the object
-     
-        $(window).scroll(function() {
-            var yPos = -($(window).scrollTop() / .8); 
-             
-            // Put together our final background position
-            var coords = '50% '+ yPos + 'px';
- 
-            // Move the background
-            $bgobj.css({ backgroundPosition: coords });
-        }); 
-    });    
-})
+  $(".wrapper-2").bind('mousewheel' , function(){
+    
+    if($(window).scrollTop() > 813)
+    {
+          
+    }
+  });
+});
+
+
