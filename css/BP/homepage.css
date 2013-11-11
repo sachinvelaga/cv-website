@@ -1,9 +1,9 @@
 .wrapper-1
 {
- background-image: url('../../images/covended/bg-hand.png');
- background-repeat:no-repeat;
- height:844px;
- position:relative;
+     background-image: url('../../images/covended/bg-hand.png');
+     background-repeat:no-repeat;
+     height:844px;
+     position:relative;
 }
 .wrapper-1 a
 {
@@ -11,10 +11,10 @@
 }
 .wrapper-1-logo
 {
- width: 100%;
- text-align: center;
- padding-top: 25px;
- position:absolute;
+     width: 100%;
+     text-align: center;
+     padding-top: 25px;
+     position:absolute;
 }
 .wrapper-1-content{
 	position: fixed;
@@ -103,10 +103,10 @@
 }
 .wrapper-3
 {
- background-image: url('../../images/covended/bg-ppl.png');
- background-repeat:no-repeat;
- height:714px;
- position:relative;
+     background-image: url('../../images/covended/bg-ppl.png');
+     background-repeat:no-repeat;
+     height:714px;
+     position:relative;
 }
 .wrapper-3-title{
     position: absolute;
@@ -121,43 +121,267 @@
     font-weight: normal;
 }
 .wrapper-3-1{
- top: 150px;
-position: absolute;
-width: 1000px;
-margin: 0 auto;
-left: 0;
-right: 0;
+    top: 150px;
+    position: absolute;
+    width: 1000px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 .wrapper-3-1-left-text{
-  width: 40%;
-  float: left;
-  text-align: right;
+    width: 40%;
+    float: left;
+    text-align: right;
 }
 .wrapper-3-1-img{
     width: 10%;
-float: left;
-margin: 0px 40px 0px 40px;
-padding-top: 55px;
+    float: left;
+    margin: 0px 40px 0px 40px;
+    padding-top: 55px;
 }
 .wrapper-3-1-right-text{
     width: 40%;
-float: left;
-text-align: left;
+    float: left;
+    text-align: left;
 }
 .wrapper-3-2{
- top: 420px;
-position: absolute;
-width: 1000px;
-margin: 0 auto;
-left: 0;
-right: 0;
+     top: 420px;
+    position: absolute;
+    width: 1000px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 .wrapper-3-1 h3, .wrapper-3-2 h3{
-  font-size: 23px;
-  color:#f25204;
-  font-weight: normal;
+    font-size: 23px;
+    color:#f25204;
+    font-weight: normal;
 }
   .wrapper-3-1 p, .wrapper-3-2 p{
-  font-size :14px;
-  color:#ffffff;
+    font-size :14px;
+    color:#ffffff;
+}
+.services-image .outer-circle{
+    background-image: url('../../images/covended/bg-circle.png');
+    background-repeat:no-repeat;
+    height: 492px;
+    width: 492px;
+    margin: 0 auto;
+}
+.wrapper-4{
+    position: relative;
+    height:675px;
+}
+.wrapper-4 .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.services-image{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+}
+.services-image .outer-circle .logo {
+    width: 139px;
+    padding-top: 175px;
+    padding-left: 175px;
+}
+.app-dev img, .mob-tech img,.graph-des img,.soft-test img,.prod-engg img,.web-tech img{
+    padding:10px;
+}
+.soft-test img{
+    padding-top:15px;
+}
+.web-tech img{
+    padding-top: 12px;
+}
+.app-dev , .mob-tech ,.graph-des ,.soft-test ,.prod-engg ,.web-tech{
+    width: 75px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+    height: 75px;
+    border: 1px solid #CCC;
+}
+.app-dev{
+    top: 30px;
+    left: 467px;
+}
+.app-dev span , .web-tech span , .prod-engg span{
+    position: absolute;
+    left: -126px;
+    top: 20px;
+    padding-right: 94px;
+    text-align: right;
+    font-size: 15px;
+    color:#ff4c00;;
+}
+.graph-des span , .mob-tech span , .soft-test span {
+    position: absolute;
+    right: -163px;
+    top: 20px;
+    padding-left: 89px;
+    text-align: left;
+    font-size: 15px;
+    color: #ff4c00;
+}
+.web-tech{
+    top: 210px;
+    left: 392px;
+}
+.prod-engg{
+    top: 400px;
+    left: 488px;
+}
+.soft-test{
+    top: 378px;
+right: 471px;
+}
+.graph-des{
+    top: 210px;
+    right: 392px;
+}
+.mob-tech{
+    top: 0px;
+    right: 510px;
+}
+.wrapper-4 .title h2{
+    color:#ff4c00;
+    font-size:50px;
+    font-weight: normal;
+}
+.wrapper-6{
+    height:600px;
+    position:relative;
+}
+.contact-us{
+    width: 50%;
+margin: 0 auto;
+text-align: center;
+}
+.contact-us h2{
+    color: #ff4c00;
+    font-size: 50px;
+    font-weight: normal;
+}
+.contact-info{
+    width: 45%;
+margin-left: 250px;
+display: inline-block;
+vertical-align: top;
+}
+.info-details{
+    margin-top: 40px; 
+    width: 375px;  
+}
+.info-details form fieldset {
+    margin: 10px 0;
+    padding: 10px;
+    border: 0;
+}
+.info-details form fieldset div{
+    padding: 0.25em 0;
+    margin-bottom: 20px;
+}
+.info-details form input{
+    width: 229px;
+}
+.info-details form fieldset label{
+    margin-right: 10px;
+    padding-right: 10px;
+    width: 100px;
+    display: block;
+    float: left;
+    text-align: left;
+    position: relative;
+    font-size:14px;
+    color: #ff4c00;;
+}
+.send-submit-form{
+    width: 91px;
+    padding: 0;
+    color: #FFF;
+    margin: 0;
+    border: 0;
+    height: 30px;
+    background: url('../../images/covended/send-button.png') no-repeat;
+    float: right;
+}
+.info-banner{
+    width: 393px;
+    left: 175px;
+    text-align: center;
+}
+.info-banner-img p.just{
+    font-size: 25px;
+    margin: 25px 0 0 0;
+    color: #ff4c00;
+}
+.info-banner-img p.say-hi{
+    font-size: 40px;
+    margin: 0;
+    color: #ff4c00;
+}
+.info-banner-img{
+   background: url('../../images/covended/thankyou.png') no-repeat;
+    height: 116px;
+    position: relative;
+    border: 1px solid #CCC;
+    padding: 0px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+}
+.extra-info{
+    display:inline-block;
+    position:relative;
+}
+.extra-info div{
+    margin-bottom:35px;
+}
+.extra-info p.p1 , .mailing-address p.email-p , .phone-info p.phone{
+   color: #ff5200;
+}
+.extra-info span{
+    position: absolute;
+    right: 500px;
+}
+.info-img-1{
+    top: 6px;
+    left: -30px;
+}
+.info-img-2{
+    top: 155px;
+    left: -37px;
+}
+.info-img-3{
+   top: 279px;
+    left: -37px;
+}
+.footer{
+    background-color: #ff5700;
+    height: 50px;
+    width: 100%
+}
+.footer span.copyright{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 18px;
+    width: 20%;
+    text-align: center;
+    color: #FFF;
+}
+.footer span.design{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 18px;
+    width: 15%;
+    float:right;
+    text-align: center;
+    color: #FFF;
 }
