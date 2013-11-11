@@ -365,13 +365,13 @@ vertical-align: top;
 }
 .footer{
     background-color: #ff5700;
-    height: 50px;
+    height: 40px;
     width: 100%
 }
 .footer span.copyright{
     display: inline-block;
     vertical-align: middle;
-    padding-top: 18px;
+    padding-top: 12px;
     width: 20%;
     text-align: center;
     color: #FFF;
@@ -379,7 +379,7 @@ vertical-align: top;
 .footer span.design{
     display: inline-block;
     vertical-align: middle;
-    padding-top: 18px;
+    padding-top: 12px;
     width: 15%;
     float:right;
     text-align: center;
