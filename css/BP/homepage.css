@@ -167,6 +167,7 @@
     height: 492px;
     width: 492px;
     margin: 0 auto;
+    position: relative;
 }
 .wrapper-4{
     position: relative;
@@ -185,10 +186,27 @@
     left: 0;
     right: 0;
 }
-.services-image .outer-circle .logo {
-    width: 139px;
-    padding-top: 175px;
-    padding-left: 175px;
+.services-image .logo {
+position: absolute;
+right: 0;
+left: 0;
+margin: 0 auto;
+width: 139px;
+height: 142px;
+z-index: 1;
+top: 170px;
+}
+.animate-cover{
+    position: absolute;
+width: 492px;
+height: 492px;
+margin: 0 auto;
+left: 0;
+right: 0;
+border-radius: 50%;
+opacity: 1;
+background-color: white;
+z-index: 1;
 }
 .app-dev img, .mob-tech img,.graph-des img,.soft-test img,.prod-engg img,.web-tech img{
     padding:10px;
@@ -207,10 +225,11 @@
     background: white;
     height: 75px;
     border: 1px solid #CCC;
+    display:none;
 }
 .app-dev{
     top: 30px;
-    left: 467px;
+    left: 40px;
 }
 .app-dev span , .web-tech span , .prod-engg span{
     position: absolute;
@@ -232,23 +251,23 @@
 }
 .web-tech{
     top: 210px;
-    left: 392px;
+left: -36px;
 }
 .prod-engg{
     top: 400px;
-    left: 488px;
+left: 60px;
 }
 .soft-test{
     top: 378px;
-right: 471px;
+right: 40px;
 }
 .graph-des{
     top: 210px;
-    right: 392px;
+right: -33px;
 }
 .mob-tech{
     top: 0px;
-    right: 510px;
+right: 86px;
 }
 .wrapper-4 .title h2{
     color:#ff4c00;

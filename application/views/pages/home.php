@@ -91,10 +91,11 @@
    <h2>SERVICES</h2>
   </div>
   <div class="services-image">
-    <div class="outer-circle">
-      <div class="logo">
+    <div class="animate-cover"></div>
+    <div class="logo">
         <img src="<?php echo base_url('images/covended/circle-logo.png')?>" alt=""/>
       </div>
+    <div class="outer-circle">
       <div class="app-dev"><span>APPLICATION DEVELOPMENT</span><img src="<?php echo base_url('images/covended/application.png')?>" alt =""/></div>
       <div class="mob-tech"><span>MOBILE TECHNOLOGY</span><img src="<?php echo base_url('images/covended/mobile.png')?>" alt =""/></div>
       <div class="graph-des"><span>GRAPHIC DESIGNING AND BRANDING</span><img src="<?php echo base_url('images/covended/graphics.png')?>" alt =""/></div>
@@ -102,8 +103,7 @@
       <div class="prod-engg"><span>PRODUCT ENGINEERING</span><img src="<?php echo base_url('images/covended/product.png')?>" alt =""/></div>
       <div class="web-tech"><span>WEB TECHNOLOGY</span><img src="<?php echo base_url('images/covended/web.png')?>" alt =""/></div>
     </div>
-
-  </div>
+</div>
 </div>
 <div class="wrapper-5"></div>
 <div class="wrapper-6">
