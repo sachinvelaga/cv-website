@@ -118,13 +118,13 @@
       </div>
     </div>
     <div class="info-details">
-      <form>
+      <form action="" method="post">
           <fieldset>
               <div><label for="uname" class="error">Name</label> <input id="uname" type="text" name="uname" value="" class="error"></div>
               <div><label for="email">Email</label> <input id="email" type="text" name="email" value=""></div>
               <div><label for="fname">Phone</label> <input id="fname" type="text" name="fname" value=""></div>
               <div><label for="lname">So How You?</label> <textarea id="lname" type="text" name="lname" value="" rows="5" cols="30"></textarea></div>
-              <button class="send-submit-form">SEND</button>
+              <button class="send-submit-form" onclick="return false;">SEND</button>
           </fieldset>
 
      </form>
