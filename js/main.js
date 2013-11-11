@@ -26,8 +26,10 @@ $('#da-slider').cslider({
 
 
  $(".wrapper-4").bind('mousewheel' , function(){
-   if(rotate == false)
+   if(rotate == false && $(window).scrollTop() > 2249)
    {
+    $('body').addClass('stop-scrolling');
+   
     DoRotate(360);
     AnimateRotate(360);
     rotate = true;
@@ -65,6 +67,7 @@ function AnimateRotate(d){
         },
         complete:function(){
           fadein();
+          $('body').removeClass('stop-scrolling');
         }
     });
 } 

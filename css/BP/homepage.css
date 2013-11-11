@@ -1,3 +1,7 @@
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
 .wrapper-1
 {
      background-image: url('../../images/covended/bg-hand.png');
