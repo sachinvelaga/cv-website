@@ -41,6 +41,28 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/slidercss/demo.css')?>"/>
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/slidercss/style2.css')?>"/>
   <!--<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>!-->
+ <style>
+@font-face
+{
+font-family: GothamBook;
+src: url('../../fonts/Gotham-Book.ttf');
+}
+@font-face
+{
+font-family: GothamLight;
+src: url('../../fonts/Gotham-Light.ttf');
+}
+@font-face
+{
+font-family: GothamMedium;
+src: url('../../fonts/Gotham-Medium.ttf');
+}
+@font-face
+{
+font-family: SansationRegular;
+src: url('../../fonts/Sansation_Regular.ttf');
+}
+ </style>
 </head>
 <body>
     <!--[if lt IE 7]>

@@ -23,6 +23,10 @@
         </div>
       </div>
   </div>
+  <div class="mouse-scroll-more">
+    <p class="mouse-img"><img src="<?php echo base_url('images/covended/mouse.png')?>" alt="" name="mouse-button"/></p>
+    <p class="mouse-txt">SCROLL DOWN TO KNOW MORE</p>
+  </div>
 </div>
 <div class="wrapper-2" data-type="background">
   <div class="text-info">
@@ -54,7 +58,8 @@
       <img src="<?php echo base_url('images/covended/chicken_4.png')?>" alt="" class="chicken-img"/>
     </div> 
   </div>
-  </div></div>
+  </div>
+  </div>
 <div class="wrapper-3" data-type="background">
    <div class="wrapper-3-title">
      <h2>PRACTICES</h2>
@@ -91,17 +96,16 @@
    <h2>SERVICES</h2>
   </div>
   <div class="services-image">
-    <div class="animate-cover"></div>
-    <div class="logo">
+      <div class="logo">
         <img src="<?php echo base_url('images/covended/circle-logo.png')?>" alt=""/>
       </div>
     <div class="outer-circle">
       <div class="app-dev"><span>APPLICATION DEVELOPMENT</span><img src="<?php echo base_url('images/covended/application.png')?>" alt =""/></div>
+      <div class="web-tech"><span>WEB TECHNOLOGY</span><img src="<?php echo base_url('images/covended/web.png')?>" alt =""/></div>
+      <div class="prod-engg"><span>PRODUCT ENGINEERING</span><img src="<?php echo base_url('images/covended/product.png')?>" alt =""/></div>
       <div class="mob-tech"><span>MOBILE TECHNOLOGY</span><img src="<?php echo base_url('images/covended/mobile.png')?>" alt =""/></div>
       <div class="graph-des"><span>GRAPHIC DESIGNING AND BRANDING</span><img src="<?php echo base_url('images/covended/graphics.png')?>" alt =""/></div>
       <div class="soft-test"><span>SOFTWARE TESTING</span><img src="<?php echo base_url('images/covended/testing.png')?>" alt =""/></div>
-      <div class="prod-engg"><span>PRODUCT ENGINEERING</span><img src="<?php echo base_url('images/covended/product.png')?>" alt =""/></div>
-      <div class="web-tech"><span>WEB TECHNOLOGY</span><img src="<?php echo base_url('images/covended/web.png')?>" alt =""/></div>
     </div>
 </div>
 </div>

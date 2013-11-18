@@ -6,7 +6,7 @@
 {
      background-image: url('../../images/covended/bg-hand.png');
      background-repeat:no-repeat;
-     height:844px;
+     height:900px;
      position:relative;
 }
 .wrapper-1 a
@@ -44,6 +44,7 @@
     display:block;
     cursor: pointer;
     width: 185px;
+    font-family: GothamBook;
 }
  .wrapper-1-nav ul li span{
     width: 22px;
@@ -63,8 +64,23 @@
     border-bottom: 1px solid white;
     transition: width 3s ease-in-out;
 }
+.mouse-scroll-more{
+    position: absolute;
+    top: 575px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.mouse-scroll-more p{
+    font-family: GothamMedium;
+    font-size:12px;
+    color:#ff3f00;
+    font-weight: normal;
+}
 .wrapper-2{
-    height: 690px;
+    height: 800px;
     position: relative;
 }
 .text-info{
@@ -96,9 +112,14 @@
     font-size: 50px;
     font-weight: normal;
     color: #ff4c00;
+    font-family: GothamBook;
+}
+
+.image-info-3 img , .image-info-4{
+    width:50%;
 }
 .text-info p{
-    font-family: Gotham Light;
+    font-family: GothamLight;
     font-size: 16px;
     color: #797979;
 }
@@ -123,6 +144,7 @@
     color: #ff4c00;
     font-size: 50px;
     font-weight: normal;
+    font-family: GothamBook;
 }
 .wrapper-3-1{
     top: 150px;
@@ -131,20 +153,21 @@
     margin: 0 auto;
     left: 0;
     right: 0;
+    font-family: GothamLight;
 }
 .wrapper-3-1-left-text{
-    width: 40%;
+    width: 415px;
     float: left;
     text-align: right;
 }
 .wrapper-3-1-img{
-    width: 10%;
+    width: 100px;
     float: left;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 25px 0px 25px;
     padding-top: 55px;
 }
 .wrapper-3-1-right-text{
-    width: 40%;
+    width: 415px;
     float: left;
     text-align: left;
 }
@@ -155,6 +178,7 @@
     margin: 0 auto;
     left: 0;
     right: 0;
+    font-family: GothamLight;
 }
 .wrapper-3-1 h3, .wrapper-3-2 h3{
     font-size: 23px;
@@ -172,6 +196,9 @@
     width: 492px;
     margin: 0 auto;
     position: relative;
+     -webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 2s ease-in-out;-ms-transition: all 2s ease-in-out;transition: all 2s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 2s ease-in-out;-ms-transition: all 2s ease-in-out;transition: all 2s ease-in-out;
+    -webkit-transform: scale( 0.1 );-moz-transform: scale( 0.1 );-o-transform: scale( 0.1 );-ms-transform: scale( 0.1 );transform: scale( 0.1 );
 }
 .wrapper-4{
     position: relative;
@@ -183,6 +210,7 @@
     right: 0;
     margin: 0 auto;
     text-align: center;
+    font-family: GothamBook;
 }
 .services-image{
     position: absolute;
@@ -291,6 +319,7 @@ text-align: center;
     color: #ff4c00;
     font-size: 50px;
     font-weight: normal;
+    font-family: GothamBook;
 }
 .contact-info{
     width: 45%;
@@ -322,8 +351,9 @@ vertical-align: top;
     float: left;
     text-align: left;
     position: relative;
-    font-size:14px;
-    color: #ff4c00;;
+    font-size:16px;
+    color: #ff4c00;
+    font-family:GothamBook; 
 }
 .send-submit-form{
     width: 91px;
@@ -339,6 +369,9 @@ vertical-align: top;
     width: 393px;
     left: 175px;
     text-align: center;
+}
+.info-banner-img p{
+    font-family: GothamBook;
 }
 .info-banner-img p.just{
     font-size: 25px;
@@ -363,6 +396,7 @@ vertical-align: top;
 .extra-info{
     display:inline-block;
     position:relative;
+    font-family: helvetica;
 }
 .extra-info div{
     margin-bottom:35px;
@@ -389,7 +423,9 @@ vertical-align: top;
 .footer{
     background-color: #ff5700;
     height: 40px;
-    width: 100%
+    width: 100%;
+    font-family:GothamBook;
+    font-size: 16px;
 }
 .footer span.copyright{
     display: inline-block;
@@ -407,4 +443,8 @@ vertical-align: top;
     float:right;
     text-align: center;
     color: #FFF;
+}
+div.opened {
+    vertical-align: middle;
+    -webkit-transform: scale( 1 );-moz-transform: scale( 1 );-o-transform: scale( 1 );-ms-transform: scale( 1 );transform: scale( 1 );
 }
